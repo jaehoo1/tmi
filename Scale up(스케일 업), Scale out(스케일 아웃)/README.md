@@ -25,7 +25,7 @@
 |서버 비용|성능 증가에 따른 비용 증가폭이 큼|스케일 아웃보다는 비용 부담이 적음|
 |운영 비용|서버 대수가 증가하진 않으므로 변화없음|대수가 늘어날수록 관리 편의성이 떨어지며, 운영 비용 증가|
 |주요 기술(App 관점)|고성능 CPU, 메모리 확장, SSD|Sharding, Query-off Loading, Queue, In Memory Cache, NoSQL, Object Storage, Distributed Storage|
-|적용|<ul><li>온라인 금융 거래와 같이 워크플로우 기반의 빠르고 정확하면서 단순한 처리가 필요한 OLTP(Online Transaction Processing)</li><li>고성능 Legacy 어플리케이션</li></ul>|<ul><li>대량의 데이터 처리와 복잡한 쿼리가 이루어지는 OLAP(Online Analytical Processing)(ex : 빅데이터의 데이터 마이닝, 검색엔진 데이터 분석 처리)</li><li>분산처리 시스템</li></ul>|
+|적용|<ul><li>온라인 금융 거래와 같이 워크플로우 기반의 빠르고 정확하면서 단순한 처리가 필요한 [OLTP(Online Transaction Processing)](https://github.com/jaehoo1/tmi/tree/main/OLTP%2C%20OLAP#oltponline-transaction-processing)</li><li>고성능 Legacy 어플리케이션</li></ul>|<ul><li>대량의 데이터 처리와 복잡한 쿼리가 이루어지는 [OLAP(Online Analytical Processing)](https://github.com/jaehoo1/tmi/tree/main/OLTP%2C%20OLAP#olaponline-analytical-processing)(ex : 빅데이터의 데이터 마이닝, 검색엔진 데이터 분석 처리)</li><li>분산처리 시스템</li></ul>|
 
 <br/>
 
